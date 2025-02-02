@@ -1,0 +1,131 @@
+Software engineering was disciplined in 1960. CASE stands for computer aided software engineering. It
+was capable of handling business analysis, debugging environments, validation tools, condfiguration,
+metrics and measurement and project management. Software enginner is a broader term. Engineer works
+on the entire system while developer focus on a particular functionality. It is a more systematic
+approach. They also consult with stakeholders and vendors. Developers focus more on code. Software
+development life cycle or SDLC is a systematic process to develop high quality software. It aims to 
+produce software that meets requirements and has defined phases with their own goals. It includes
+planning, design and development. Initially based on waterfall but now uses iterative methods. It is
+cross functional and iterative. It encourages solving problems early. In the planning phase, the 
+requirements are gathered, compared against time, estimates are made and team is decided to work upon
+the project. This information is placed in SRS (software requirements specification). Next, a design
+or architecture is proposed. Next is development, where the actual code is designed with the help
+of different programming languages. Testing is done in the next phase and is done till the software
+is stable. In the deployment phase, the system or application is deployed onto production environment
+and in the maintenance phase, slight improvements or enhancements or bug fixes can be done in this 
+phase. SRS also includes business needs and is of 4 categories, functional, external and UI, system
+features, non functional. Quality of code can be improved by using standard practices, linters to
+detect errors, making comments for quick feedback. User acceptance or beta testing is a good source
+of feedback. Alpha release is for selected stakeholders, beta release is for specific people and test
+it in the real world environment. General availability includes all users. It includes identifying
+stakeholders, documenting, confirming and prioritising requirments. Stakeholders include end users,
+customer support, engineers etc. Objectives are measurable. Elicitng (surveys, interviews),
+documenting (easily understood and align with goals and objectives) and confirming (consistency,
+clarity and completeness. SRS (constraints, assumption and specification)(functional, non functional,
+external and system requirements), URS (user stories) and SysRS (policies, rules and security). 
+Models: waterfall is a sequential method. V shaped module includes two primary processes, 
+verification and validation. The sequence is plan, system design, architecture design, module design,
+coding, unit testing, integration testing, system testing and acceptance testing. Agile is iterative.
+Software versions help track new updates, patches and time of origin. First number is major changes,
+second number is minor changes and third number represents minor bugs or fixes.  
+Software testing is just like a quality check. Different test cases are used to check the 
+functionality. Functional testing uses black box. Regression testing confirms if new functions dont
+interfere with the orignial functions. Unit (specific function), 
+integration (checks if everything after integration and attaching works perfectly without disturbing
+other processes), 
+system (compliance with SRS, validate system and working in environment) and acceptance
+(satisifies needs of user, customer and stakeholders). Product documentation (requirement, design,
+technical, QA and user). SoP is as per the organization. There are different roles in the project,
+common ones include project manager or scrum master, stakeholder, system architect, developers, 
+tester or QA engineer, site reliability engineer, product owner (vision) and technical writer, UX 
+engineer. Non functional requirements include performance and security. Scrum master connects 
+stakeholders and team members.
+
+Static are already stored and dynamic are obtained when requested. Full stack includes both front and
+back end development. HTML is for structure and CSS for style and CSS also allows cross platform
+compatibility. Syntactically awesome style sheets (SASS) helps use imports and other techniques. 
+Learner style sheets is backward compatible with CSS. Less.js converts LESS styles to CSS. Back end
+developer designs system to process the client side requests. APIs have set rules and structure.
+Route is a path to a website or webpage. Endpoint can be an API or route. Pair programming means two
+developers side by side. Driver/Navigator is the most common style. Ping pong and strong style are 
+some common practices. Senior is navigator and junior is the driver. It allows sharing of knowledge
+and improves soft skills. exhaustion, scheduling issues, may resort to single person driving it, 
+noisy environment and compatibility issues, but it is an agile technique. Version control helps in
+tracking the different checkpoints or changes in the code. It reduces conflicts as the data is stored
+in the repositories which is then merged to the main after review. Library is a collection of
+reusable code. jQuery simplifies DOM, Email validator checks email address correctness, Apache 
+commons is a repository of reusable Java components. Frameworks provide standard way to build and
+deploy applications and dictates the architecture of the app. Angular is for dynamic web pages. Some
+application developer's tools include CI/CD pipelines, build tools, packages, package managers. 
+Build automation utilities and build automation servers. Webpack is a module bundler of Javascript,
+babel is a javascript compiler, Web assembly is a binary instruction format that runs in  the browser.
+All the files are bundled into a package. Linux has DPKG, Red hat package manager, for windows it is
+chocolatey, on android it is package manager and for Mac OS it is homebrew or mac ports. Node has 
+npm, Java has gradel and maven, Ruby has ruby gems, python has pip and conda. Software stack is a set
+of tools. It includes both front end and back end. Presentation, logic, data, security,
+virtualization, orchestration. MEAN uses JS for all parts but is not suited for large scale data.
+MEVN is similar to MEAN but has less reusable libraries. LAMP has good community support but works
+only on Linux and backend runs python or PHP and JS also making it more time consuming to learn
+multiple languages. 
+
+Interpreted is also called scripting language like JS, Python, Lua and HTML. Programs are compiled or
+packaged into one single file and are used for solving challenging problems. It is faster. C, C++,
+Java etc are examples of compiler programming languages. Interpreter follows line by line execution
+and needs to be run each time. Compiler files are exe files and run faster but takes a lot of time to
+write. The memory required is also lesser. Also, the syntax is case sensitive. High level language
+is more sophisticated and uses english like pyton, SQL. While low level programming languages include 
+symbols to represent machine codes like ARM, x86 and MIPS. Query is a predefined and understandable
+instruction to make request to database. Other query languages like AQL, CQL, Datalog and DMX are 
+also available. NoSQL stands for not only SQL and it is not relational and has dynamic schema for non
+structured data. CRUD stands for create, read, update and delete. Action commands include create,
+insert and update. Syntax for assembly language is {label} mneomnic {operand list} {;comment}. 
+Assembly language need an assembler and each statement represents just one instruction. LDA, STA,
+ADD are some mnemonics. Pseudocode is an informal, high level algorithm description and algorithm is
+a step by step sequence of solving a problem. A flowchart is a pictorial representation of algorithm.
+Flowchart is a good starting point for a project. Branching and looping are two different types of
+logic. A container is a special type of identifier to reference multiple program elements. It is a 
+faster. The two common types of containers are arrays and vectors. In OOP, the objects contain data
+in the form of properties (attributes) and code as procedures. Data stored in an object is called a 
+property.  
+
+Early design decisions include how components react, operating environment, design principles, costly
+to change once implemented, addresses non functional aspects. Software design document provides 
+functional description and design of the system. Elements should be cohessive and loosely coupled.
+State transition and interaction are types of UML diagrams (unified modelling language). It is
+structural or behavioral. Generic version of object is called class. A class is like a blueprint for
+an object. Object oriented analysis and design is the process of software planning based on behaviors
+of interacting objects. The 5 main architectural patterns are peer to peer (decentralized system like
+client and server), microservices ( loosely coupled services connected through APIs), event driven
+(consumers send request to producers), two-tier (client and server), three-tier (presentation, 
+application and data). A component is an individual unit of encapsulated functionality. It should be
+reusable, replacable, independent, extensible, encapsulated, non context specific. For instance, API,
+data access object, controller are components. Component based architecture has a higher level of
+abstraction. Services are made of components. Distributed systems share resources, are fault 
+tolerant, multiple activities run concurrently, scalable, runs on a variety of computers, programmed
+in a variety of language. They use one of the client-server, peer to peer, three-tier and microservice
+architecture. SOA is service oriented architecture.Peer to peer is good for sharing information and
+messaging and high performance computing. In event driven architectures, producers listen for and 
+react to triggers, while consumers process an event. The router determines which customer the result
+should be delivered to. In three tier, there is a web server for users, application server and a 
+database server for data management. Patterns can also be formed, but not always because two tier and
+peer to peer cannot work together as there is single machine in the former. Application environments
+include code, software stack, networking infrastructure, hardware (compute, memory and storage). 
+Production environment should also take load, security, reliability and scalability into 
+consideration and is more complex than the pre production environments. Load balancers prevent server
+traffic overload, maximize server capabilities and responsiveness and ensures that no server is 
+overworked. A proxy server is an intermediate server that handles requests between two tiers. It also
+acts as firewall, load balancer, used for caching and improves efficiency, privacy and security.
+Pre production environment includes development, QA, staging. 
+
+Software engineers are of two types, backend or system and front end or application developers. Data
+integration, business logic and user interface solutions are provided by them. Daily tasks include
+designing new systems, evaluating system and code, optimizing and documenting the system or deployment
+along with use of deveops responsibilties. Hard skills or practical skills include programming 
+languages, version conntrol, cloud, database,agile, testing and monitoring and can be quantified.
+There is a high demand for software engineers. Front end, back end, full stack, security and gaming
+are some roles in software engineering. Public (responsible for good of general public), client
+(work for clients in the best possible transparent manner), product (quality should be maintained),
+judgement (maintain honesty and document the process), management (reduce risk and employ security 
+procedures), profession (protect reputation by acting with integrity), colleagues (treat others with
+respect), self (keep learning new concepts). Data integration layer accesses and loads the data from
+a variety of sources. 
